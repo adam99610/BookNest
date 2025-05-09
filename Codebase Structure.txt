@@ -1,0 +1,34 @@
+booknest/
+│
+├── admin/ # Admin pages (dashboard, manage users/books/orders)
+│ ├── dashboard.php
+│ ├── manage_users.php
+│ ├── manage_books.php
+│ ├── manage_orders.php
+│
+├── includes/ # Config, functions, shared header/footer
+│ ├── config.php
+│ ├── functions.php
+│ ├── header.php
+│ ├── footer.php
+│
+├── pages/ # Public pages for user interaction
+│ ├── index.php
+│ ├── register.php
+│ ├── login.php
+│ ├── cart.php
+│ ├── order_confirmation.php
+│
+├── process/ # Form handlers (registration, login, checkout)
+│ ├── register_process.php
+│ ├── login_process.php
+│ ├── add_to_cart.php
+│ ├── checkout_process.php
+│
+├── sql/ # SQL database schema
+│ ├── booknest_schema.sql
+│
+├── css/
+│ └── styles.css
+│
+└── README.md # Project documentation 
